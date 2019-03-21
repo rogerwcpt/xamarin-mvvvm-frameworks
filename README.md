@@ -1,38 +1,41 @@
 # A Comparison Matrix of MVVM Frameworks for Xamarin
 
-|Feature|MVVMCross|FreshMVVM|Prism.Forms|MVVMLight|
-|-------|---------|---------|-----------|---------|
-|Supports Xamarin Forms|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:|
-|Supports Xamarin Native|:white_check_mark:|:no_entry:|:no_entry:|:white_check_mark:|
-|Active Development|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:|
-|Up to date Samples|:white_check_mark:|:white_check_mark:|:white_check_mark:|:no_entry:|
-|.NET Foundation Member|:white_check_mark:|:no_entry:|:white_check_mark:|:no_entry:|
-|.NET Standard Support|:white_check_mark:|:white_check_mark:|:white_check_mark:|:no_entry:|
-|Up to date documentation|:white_check_mark:|:white_check_mark:|:no_entry:|:no_entry:|
-|Built in IOC Container|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:|
-|Fast IOC Container|:white_check_mark:|:white_check_mark:|:no_entry:|:white_check_mark:|
-|View-to-ViewModel auto wiring|:white_check_mark:|:white_check_mark:|:white_check_mark:|:no_entry:|
-|Navigation Service|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:|
-|ViewModel-to-ViewModel Navigation|:white_check_mark:|:white_check_mark:|:no_entry:|:no_entry:|
-|ViewModel Parameters|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:|
-|ViewModel Lifecycle|:white_check_mark:|:white_check_mark:|:no_entry:|:no_entry:|
-|Non-Invasive XAML|:no_entry:|:white_check_mark:|:white_check_mark:|:white_check_mark:|
-|Event Aggregator|:white_check_mark:|:no_entry:|:white_check_mark:|:no_entry:|
-|View Presenter Overriding|:white_check_mark:|:no_entry:|:no_entry:|:no_entry:|
-|Converter Helpers|:white_check_mark:|:no_entry:|:no_entry:|:no_entry:|
+>(Comparison below is based on stable versions, not pre-release)
+
+|Feature|MVVMCross|FreshMVVM|Prism.Forms|MVVMLight|Caliburn.Micro|
+|-------|---------|---------|-----------|---------|------------|
+|Supports Xamarin Forms|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:|
+|Supports Xamarin Native|:white_check_mark:|:no_entry:|:no_entry:|:white_check_mark:|:no_entry:|
+|Active Development|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:|
+|Up to date Samples|:white_check_mark:|:white_check_mark:|:white_check_mark:|:no_entry:|:white_check_mark:|
+|.NET Foundation Member|:white_check_mark:|:no_entry:|:white_check_mark:|:no_entry:|:no_entry:|
+|.NET Standard Support|:white_check_mark:|:white_check_mark:|:white_check_mark:|:no_entry:|:no_entry:|
+|Up to date documentation|:white_check_mark:|:white_check_mark:|:no_entry:|:no_entry:|:no_entry:|
+|Built in IOC Container|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:|
+|Fast IOC Container|:white_check_mark:|:white_check_mark:|:no_entry:|:white_check_mark:|:white_check_mark:|
+|View-to-ViewModel auto wiring|:white_check_mark:|:white_check_mark:|:white_check_mark:|:no_entry:|:white_check_mark:|
+|Navigation Service|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:|
+|ViewModel-to-ViewModel Navigation|:white_check_mark:|:white_check_mark:|:no_entry:|:no_entry:|:white_check_mark:|
+|ViewModel Parameters|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:|
+|ViewModel Lifecycle|:white_check_mark:|:white_check_mark:|:no_entry:|:no_entry:|:white_check_mark:|    
+|Non-Invasive XAML|:no_entry:|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:|
+|Event Aggregator|:white_check_mark:|:no_entry:|:white_check_mark:|:no_entry:|:white_check_mark:|
+|View Presenter Overriding|:white_check_mark:|:no_entry:|:no_entry:|:no_entry:|:no_entry:|
+|Converter Helpers|:white_check_mark:|:no_entry:|:no_entry:|:no_entry:|:no_entry:|
 
 
 ## GitHub and Nuget Stats
 
-|Links|MVVMCross|FreshMVVM|Prism.Forms|MVVMLight|
-|-----|---------|---------|-----------|---------|
-|GitHub|[Link](https://github.com/MvvmCross/MvvmCross)|[Link](https://github.com/rid00z/FreshMvvm)|[Link](https://github.com/PrismLibrary/Prism)|[Link](https://github.com/lbugnion/mvvmlight)|
-|Contributors|275|15|83|4|
-|Nuget|[Link](https://www.nuget.org/packages/MvvmCross/)|[Link](https://www.nuget.org/packages/FreshMvvm/)|[Link](https://www.nuget.org/packages/Prism.Forms/)|[Link](https://www.nuget.org/packages/MvvmLight/)|
-|Last updated*|6 months ago|5 days ago|5 months ago|6 months ago|
-|Downloads - last major version*|86,597|59,845|74,273|94,670|
-|Downloads - total*|1,071,196|148,771|518,698|1,152,775|
-|Downloads - average per day*|497|105|355|384|
+|Links|MVVMCross|FreshMVVM|Prism.Forms|MVVMLight|Caliburn.Micro|
+|-----|---------|---------|-----------|---------|---------|
+|GitHub|[Link](https://github.com/MvvmCross/MvvmCross)|[Link](https://github.com/rid00z/FreshMvvm)|[Link](https://github.com/PrismLibrary/Prism)|[Link](https://github.com/lbugnion/mvvmlight)|[Link](https://github.com/caliburn-micro/caliburn.micro)|
+|GitHub master Last commit*|1 month ago|9 days ago|11 days ago|3 months ago|1 month ago|
+|Contributors|275|15|83|4|34|
+|Nuget|[Link](https://www.nuget.org/packages/MvvmCross/)|[Link](https://www.nuget.org/packages/FreshMvvm/)|[Link](https://www.nuget.org/packages/Prism.Forms/)|[Link](https://www.nuget.org/packages/MvvmLight/)|[Link](https://www.nuget.org/packages/Caliburn.Micro)|
+|Nuget Last updated*|6 months ago|5 days ago|5 months ago|6 months ago|14 months ago|
+|Downloads - last major version*|86,597|59,845|74,273|94,670|122,487|
+|Downloads - total*|1,071,196|148,771|518,698|1,152,775|793,456|
+|Downloads - average per day*|497|105|355|384|273|
 
  '* As of 21 March 2019
 
@@ -42,7 +45,7 @@
 
 **Prism** is suitable for large applications, but has some limitations, one of which being containers that are slow and the use of magic strings for Navigations
 
-**MVVMLight** and **Caliburn Micro** only have 1 contributor and suitable for light applications. Documenation is not that good or up to date and doesn't appear to support .NET Standard. 
+**MVVMLight** and **Caliburn Micro** only have one major contributor and suitable for light applications. Documenation is not that good or up to date and doesn't appear to support .NET Standard. 
 
 
 ## Resources
@@ -61,6 +64,7 @@
 - [FreshMVVM](https://github.com/rid00z/FreshMvvm)
 - [Prism](http://prismlibrary.github.io/docs/)
 - [MVVMLight](https://galasoft.ch/posts/2014/07/using-xamarin-forms-with-mvvmlight)
+- [Caliburn.Micro](https://caliburnmicro.com/documentation/)
 
 ### Samples
 
@@ -70,5 +74,6 @@
 - [FreshMVVM](https://github.com/rid00z/FreshMvvm/tree/master/samples)
 - [Prism](https://github.com/PrismLibrary/Prism-Samples-Forms.git)
 - [MVVMLight](https://github.com/lbugnion/sample-crossplatform-flowers.git)
+- [Caliburn.Micro](https://github.com/Caliburn-Micro/Caliburn.Micro/tree/master/samples)
 
 
