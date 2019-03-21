@@ -42,7 +42,9 @@
 
 ## Summary
 
-**MVVMCross** is the most feature complete and suitable for most applications. It has a very large community support base from a contributions and troubleshooting point of view. The biggest drawback for me of MVVMCross as far as XAML goes, its that you need to use their MvxContentPage in your declarations.
+**MVVMCross** is the most feature complete and suitable for most sizable applications.  It has a very large community support base from a contributions and troubleshooting point of view. The biggest drawback for me of MVVMCross as far as XAML goes, its that you need to use their MvxContentPage in your declarations.
+
+The other drawback I've found with MVVMCross are the mysterious bugs that appear in Release Mode because you havne't included an up to date [LinkerPleaseInclude.cs](https://github.com/MvvmCross/MvvmCross-Samples/blob/master/StarWarsSample/StarWarsSample.Forms/StarWarsSample.Forms.iOS/LinkerPleaseInclude.cs) file which they provide in their sample applications.
 
 **Prism** is suitable for large applications, but has some limitations, one of which being containers that are slow and the use of magic strings for Navigations
 
@@ -54,9 +56,18 @@ With the exception of **FreshMVVM** which is a Xamarin Forms first class citizen
 
 Having used **Caliburn.Micro** in its hey dey with Windows Desktop and Windows Phone applications, it was quite revolutionary, with many people using it over MVVMLight because it had so many nifty features such as Auto Binding of Properties to visual elements if the element had the same name.  That feature seems to have dropped off in the Xamarin version, probably for technical reasons.  Caliburn.Micro's evolution seems to be the slowest which is sad given where its come from.
 
-I think **MVVMCross** and **Prism** are great for enterprise applications because they guide you down a particular pattern.  So its easy for a bunch of developers to follow the familiar pattern when working on multiple projects in an organisation that use **MVVMCross** or **Prism** consitently.
+I think **MVVMCross** and **Prism** are great for enterprise applications because they guide you down a particular pattern.  So its easy for a bunch of developers to follow the familiar pattern when working on multiple projects in an organisation that use **MVVMCross** or **Prism** consitently.  
 
 I think **FreshMVVM** is well thought out and easy to use, but what really puts me off completely is the prefix of everything with "Fresh"! 
+
+**MVVMCross** and **MVVMLight** have very high average downloads per day, but their history goes way back before Xamarin Forms became popular.  So that would leave **Prism** as the highest downloads from a pure Xamarin Forms point of view.
+
+### So which one should you use?
+
+The cop out answer is "it depends", but it really does.   If you have used **MVVMCross**, **MVVMLight** for Xamarin Native applications before (or Prism for native Windows applications) and are now using Xamarin Forms, it makes sense to continue to use what you're used to.  
+
+If you have *no* experience with any MVVM frameworks and you have a small app but want some of the nifty features of an MVVM framework, I would say **FreshMVVM** is a good choice. 
+
 
 ## Resources
 
