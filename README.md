@@ -11,17 +11,28 @@
 |Up to date documentation|:white_check_mark:|:white_check_mark:|:no_entry:|:no_entry:|
 |Built in IOC Container|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:|
 |Fast IOC Container|:white_check_mark:|:white_check_mark:|:no_entry:|:white_check_mark:|
-|View-to-ViewModel auto wiring|:white_check_mark:|:white_check_mark:|:white_check_mark:|:no_entry:|
-|Navigation Service|:white_check_mark:|:white_check_mark:|:white_check_mark:|:no_entry:|
+|View-to-ViewModel auto wiring|:white_check_mark:|:white_check_mark:|:no_entry:|:no_entry:|
+|Navigation Service|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:|
 |ViewModel-to-ViewModel Navigation|:white_check_mark:|:no_entry:|:no_entry:|:no_entry:|
 |ViewModel Parameters|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:|
 |View Lifecycle|:white_check_mark:|:white_check_mark:|:no_entry:|:no_entry:|
+|Event Aggregator|:white_check_mark:|:no_entry:|:white_check_mark:|:no_entry:|
+
+
+## Summary
+
+MVVMCross is the most feature complete and suitable for most applications.  The 
+
+Prism is suitable for large applications, but has some limitations.
+
+MVVMLight and Caliburn Micro only have 1 contributor and suitbable for light applications
+
 
 
 
 ## Resources
 
-## Framework Comparisons
+### Framework Comparisons
 - [Adam Pedley on Xamarin Help](https://xamarinhelp.com/use-xamarin-forms-mvvm-framework/)
 
 ### IOC Container Performance Comparisons
@@ -29,9 +40,20 @@
 - [Daniel Palme on GitHub](https://github.com/danielpalme/IocPerformance)
 - [Adam Pedley on Xamarin Help](https://xamarinhelp.com/ioc-container-performance/)
 
-## Documentation
+### Documentation
 
 - [MVVMCross](https://www.mvvmcross.com/documentation/)
 - [FreshMVVM](https://github.com/rid00z/FreshMvvm)
 - [Prism](http://prismlibrary.github.io/docs/)
 - [MVVMLight](https://galasoft.ch/posts/2014/07/using-xamarin-forms-with-mvvmlight)
+
+### Samples
+
+- MVVMCross
+  - [Playground](https://github.com/MvvmCross/MvvmCross/tree/develop/Projects/Playground)
+  - [Samples](https://github.com/MvvmCross/MvvmCross-Samples)
+- [FreshMVVM](https://github.com/rid00z/FreshMvvm/tree/master/samples)
+- [Prism](https://github.com/PrismLibrary/Prism-Samples-Forms.git)
+- [MVVMLight](https://github.com/lbugnion/sample-crossplatform-flowers.git)
+
+
