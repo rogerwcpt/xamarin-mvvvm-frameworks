@@ -15,10 +15,12 @@
 |Navigation Service|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:|
 |ViewModel-to-ViewModel Navigation|:white_check_mark:|:white_check_mark:|:no_entry:|:no_entry:|
 |ViewModel Parameters|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:|
-|View Lifecycle|:white_check_mark:|:white_check_mark:|:no_entry:|:no_entry:|
+|ViewModel Lifecycle|:white_check_mark:|:white_check_mark:|:no_entry:|:no_entry:|
+|Non-Invasive XAML|:no_entry:|:white_check_mark:|:white_check_mark:|:white_check_mark:|
 |Event Aggregator|:white_check_mark:|:no_entry:|:white_check_mark:|:no_entry:|
 |View Presenter Overriding|:white_check_mark:|:no_entry:|:no_entry:|:no_entry:|
 |Converter Helpers|:white_check_mark:|:no_entry:|:no_entry:|:no_entry:|
+
 
 ## GitHub and Nuget Stats
 
@@ -36,7 +38,7 @@
 
 ## Summary
 
-**MVVMCross** is the most feature complete and suitable for most applications. It has a very large community support base from a contributions and troubleshooting point of view. 
+**MVVMCross** is the most feature complete and suitable for most applications. It has a very large community support base from a contributions and troubleshooting point of view. The biggest drawback for me of MVVMCross as far as XAML goes, its that you need to use their MvxContentPage in your declarations
 
 **Prism** is suitable for large applications, but has some limitations, one of which being containers that are slow and the use of magic strings for Navigations
 
