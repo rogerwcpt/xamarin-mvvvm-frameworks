@@ -32,7 +32,7 @@
 |Downloads All Time*|1,071,196|148,771|518,698|1,152,775|
 |Average Downloads per day*|497|105|355|384|
 
-* As of 21 March 2019
+ '* As of 21 March 2019
 
 ## Summary
 
