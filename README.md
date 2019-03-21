@@ -1,10 +1,5 @@
+<link href="style.css" rel="stylesheet"></link>
 # A Comparison Matrix of MVVM Frameworks for Xamarin
-
-<style>
-    g-emoji: {
-        align: center
-    }
-</style>
 
 |Feature|MVVMCross|FreshMVVM|Prism|MVVMLight|
 |---------|---------|---------|-----|---------|
