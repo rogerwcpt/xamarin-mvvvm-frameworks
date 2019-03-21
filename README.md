@@ -20,15 +20,7 @@
 |View Presenter Overriding|:white_check_mark:|:no_entry:|:no_entry:|:no_entry:|
 |Converter Helpers|:white_check_mark:|:no_entry:|:no_entry:|:no_entry:|
 
-
-## Summary
-
-**MVVMCross** is the most feature complete and suitable for most applications. It has a very large community support base from a contributions and troubleshooting point of view. 
-
-**Prism** is suitable for large applications, but has some limitations, one of which being containers that are slow and the use of magic strings for Navigations
-
-**MVVMLight** and **Caliburn Micro** only have 1 contributor and suitable for light applications. Documenation is not that good or up to date and doesn't appear to support .NET Standard. 
-
+## GitHub and Nuget Stats
 
 |Links|MVVMCross|FreshMVVM|Prism.Forms|MVVMLight|
 |-----|---------|---------|-----------|---------|
@@ -42,21 +34,16 @@
 
 * As of 21 March 2019
 
+## Summary
+
+**MVVMCross** is the most feature complete and suitable for most applications. It has a very large community support base from a contributions and troubleshooting point of view. 
+
+**Prism** is suitable for large applications, but has some limitations, one of which being containers that are slow and the use of magic strings for Navigations
+
+**MVVMLight** and **Caliburn Micro** only have 1 contributor and suitable for light applications. Documenation is not that good or up to date and doesn't appear to support .NET Standard. 
+
+
 ## Resources
-
-## GitHub Repos
-
-- [Link](https://github.com/MvvmCross/MvvmCross) (275 contributors)
-- [Link](https://github.com/rid00z/FreshMvvm) (15 contributors)
-- [Link](https://github.com/PrismLibrary/Prism) (83 contributors)
-- [Link](https://github.com/lbugnion/mvvmlight) (4 contributors)
-
-## Nuget Package
-
-- [MVVMCross](https://www.nuget.org/packages/MvvmCross/)  contributors)
-- [FreshMVVM](https://github.com/rid00z/FreshMvvm) (15 contributors)
-- [Prism](https://github.com/PrismLibrary/Prism) (83 contributors)
-- [MVVMLight](https://github.com/lbugnion/mvvmlight) (4 contributors)
 
 ### Framework Comparisons
 - [Adam Pedley on Xamarin Help](https://xamarinhelp.com/use-xamarin-forms-mvvm-framework/)
