@@ -1,6 +1,6 @@
 # A Comparison Matrix of MVVM Frameworks for Xamarin
 
-|Feature|MVVMCross|FreshMVVM|Prism|MVVMLight|
+|Feature|MVVMCross|FreshMVVM|Prism    |MVVMLight|
 |---------|---------|---------|-----|---------|
 |Supports Xamarin Forms|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:|
 |Supports Xamarin Native|:white_check_mark:|:no_entry:|:no_entry:|:white_check_mark:|
@@ -18,7 +18,7 @@
 |View Lifecycle|:white_check_mark:|:white_check_mark:|:no_entry:|:no_entry:|
 |Event Aggregator|:white_check_mark:|:no_entry:|:white_check_mark:|:no_entry:|
 |View Presenter Overridding|:white_check_mark:|:no_entry:|:no_entry:|:no_entry:|
-|Converter Helpers|white_check_mark:|:no_entry:|:no_entry:|:no_entry:|
+|Converter Helpers|:white_check_mark:|:no_entry:|:no_entry:|:no_entry:|
 
 
 ## Summary
