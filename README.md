@@ -13,7 +13,7 @@
 |Fast IOC Container|:white_check_mark:|:white_check_mark:|:no_entry:|:white_check_mark:|
 |View-to-ViewModel auto wiring|:white_check_mark:|:white_check_mark:|:white_check_mark:|:no_entry:|
 |Navigation Service|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:|
-|ViewModel-to-ViewModel Navigation|:white_check_mark:|:no_entry:|:no_entry:|:no_entry:|
+|ViewModel-to-ViewModel Navigation|:white_check_mark:|:white_check_mark:|:no_entry:|:no_entry:|
 |ViewModel Parameters|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:|
 |View Lifecycle|:white_check_mark:|:white_check_mark:|:no_entry:|:no_entry:|
 |Event Aggregator|:white_check_mark:|:no_entry:|:white_check_mark:|:no_entry:|
