@@ -45,8 +45,17 @@
 
 **Prism** is suitable for large applications, but has some limitations, one of which being containers that are slow and the use of magic strings for Navigations
 
-**MVVMLight** and **Caliburn Micro** only have one major contributor and suitable for light applications. Documenation is not that good or up to date and doesn't appear to support .NET Standard. 
+**MVVMLight** and **Caliburn.Micro** only have one major contributor and suitable for light applications. Documenation is not that good or up to date and doesn't appear to support .NET Standard 2.0 in their stable releases.\
 
+The benefit that MVVMCross and MVVMLight have over the other "Xamarin Forms Only" frameworks is that you can have your Core ViewModels be rendered to Native and Forms platofrms (eg.  Xamarin Forms for iOS and Xamarin Native for tvOS).
+
+With the exception of **FreshMVVM** which is a Xamarin Forms first class citizen, you get the feeling that all the others supported Xamarin Forms as an afterthought because they were convceived before Xamarin Forms took off.   **MVVMCross** seems to put more effort behind Xamarin Native but having use **MVVMCross** in a Xamarin Forms app, the support is very good too.
+
+Having used **Caliburn.Micro** in its hey dey with Windows Desktop and Windows Phone applications, it was quite revolutionary, with many people using it over MVVMLight because it had so many nifty features such as Auto Binding of Properties to visual elements if the element had the same name.  That feature seems to have dropped off in the Xamarin version, probably for technical reasons.  Caliburn.Micro's evolution seems to be the slowest which is sad given where its come from.
+
+I think **MVVMCross** and **Prism** are great for enterprise application because they guide you down a particular pattern, espeically Prism.  So its easy for a bunch of developers to follow the familiar pattern when working on multiple projects in an organisation that use **MVVMCross** or **Prism** consitently.
+
+I think **FreshMVVM** is well thought out and easy to use, but what really puts me off completely is the prefix of everything with "Fresh"! 
 
 ## Resources
 
