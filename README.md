@@ -11,7 +11,7 @@
 |Up to date documentation|:white_check_mark:|:white_check_mark:|:no_entry:|:no_entry:|
 |Built in IOC Container|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:|
 |Fast IOC Container|:white_check_mark:|:white_check_mark:|:no_entry:|:white_check_mark:|
-|View-to-ViewModel auto wiring|:white_check_mark:|:white_check_mark:|:no_entry:|:no_entry:|
+|View-to-ViewModel auto wiring|:white_check_mark:|:white_check_mark:|:white_check_mark:|:no_entry:|
 |Navigation Service|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:|
 |ViewModel-to-ViewModel Navigation|:white_check_mark:|:no_entry:|:no_entry:|:no_entry:|
 |ViewModel Parameters|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:|
@@ -21,11 +21,11 @@
 
 ## Summary
 
-MVVMCross is the most feature complete and suitable for most applications.  The 
+MVVMCross is the most feature complete and suitable for most applications. It has a very large community support base from a contributions and troubleshooting point of view. 
 
-Prism is suitable for large applications, but has some limitations.
+Prism is suitable for large applications, but has some limitations, one of which being containers that are slow and the use of magic strings for Navigations
 
-MVVMLight and Caliburn Micro only have 1 contributor and suitbable for light applications
+MVVMLight and Caliburn Micro only have 1 contributor and sutable for light applications. Documenation is not that good or up to date and doesn't appear to support .NET Standard. 
 
 
 
