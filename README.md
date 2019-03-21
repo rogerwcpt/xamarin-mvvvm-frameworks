@@ -28,9 +28,9 @@
 |Contributors|275|15|83|4|
 |Nuget|[Link](https://www.nuget.org/packages/MvvmCross/)|[Link](https://www.nuget.org/packages/FreshMvvm/)|[Link](https://www.nuget.org/packages/Prism.Forms/)|[Link](https://www.nuget.org/packages/MvvmLight/)|
 |Last updated*|6 months ago|5 days ago|5 months ago|6 months ago|
-|Last Major Version Downloads*|86,597|59,845|74,273|94,670|
-|Downloads All Time*|1,071,196|148,771|518,698|1,152,775|
-|Average Downloads per day*|497|105|355|384|
+|Downloads - last major version*|86,597|59,845|74,273|94,670|
+|Downloads - total*|1,071,196|148,771|518,698|1,152,775|
+|Downloads - average per day*|497|105|355|384|
 
  '* As of 21 March 2019
 
