@@ -1,7 +1,7 @@
 # A Comparison Matrix of MVVM Frameworks for Xamarin
 
-|Feature|MVVMCross|FreshMVVM|Prism    |MVVMLight|
-|---------|---------|---------|-----|---------|
+|Feature|MVVMCross|FreshMVVM|Prism Forms|MVVMLight|
+|-------|---------|---------|-----------|---------|
 |Supports Xamarin Forms|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:|
 |Supports Xamarin Native|:white_check_mark:|:no_entry:|:no_entry:|:white_check_mark:|
 |Active Development|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:|
@@ -17,7 +17,7 @@
 |ViewModel Parameters|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:|
 |View Lifecycle|:white_check_mark:|:white_check_mark:|:no_entry:|:no_entry:|
 |Event Aggregator|:white_check_mark:|:no_entry:|:white_check_mark:|:no_entry:|
-|View Presenter Overridding|:white_check_mark:|:no_entry:|:no_entry:|:no_entry:|
+|View Presenter Overriding|:white_check_mark:|:no_entry:|:no_entry:|:no_entry:|
 |Converter Helpers|:white_check_mark:|:no_entry:|:no_entry:|:no_entry:|
 
 
@@ -30,13 +30,30 @@
 **MVVMLight** and **Caliburn Micro** only have 1 contributor and suitable for light applications. Documenation is not that good or up to date and doesn't appear to support .NET Standard. 
 
 
+|Links|MVVMCross|FreshMVVM|Prism Forms|MVVMLight|
+|-----|---------|---------|-----------|---------|
+|GitHub|[Link](https://github.com/MvvmCross/MvvmCross)|[Link](https://github.com/rid00z/FreshMvvm)|[Link](https://github.com/PrismLibrary/Prism)|[Link](https://github.com/lbugnion/mvvmlight)|
+|Contributors|275|15|83|4|
+|Nuget|[Link](https://www.nuget.org/packages/MvvmCross/)|[Link](https://www.nuget.org/packages/FreshMvvm/)|[Link](https://www.nuget.org/packages/Prism.Forms/)|[Link](https://www.nuget.org/packages/MvvmLight/|
+|Last updated*|6 months ago|5 days ago|5 months ago|6 months ago|
+|Last Major Version Downloads*|86,597|59,845|74,273|94,670|
+|Downloads All Time*|1,071,196|148,771|518,698|1,152,775|
+|Average Downloads per day*|497|105|355|384|
 
+* As of 21 March 2019
 
 ## Resources
 
 ## GitHub Repos
 
-- [MVVMCross](https://github.com/MvvmCross/MvvmCross) (275 contributors)
+- [Link](https://github.com/MvvmCross/MvvmCross) (275 contributors)
+- [Link](https://github.com/rid00z/FreshMvvm) (15 contributors)
+- [Link](https://github.com/PrismLibrary/Prism) (83 contributors)
+- [Link](https://github.com/lbugnion/mvvmlight) (4 contributors)
+
+## Nuget Package
+
+- [MVVMCross](https://www.nuget.org/packages/MvvmCross/)  contributors)
 - [FreshMVVM](https://github.com/rid00z/FreshMvvm) (15 contributors)
 - [Prism](https://github.com/PrismLibrary/Prism) (83 contributors)
 - [MVVMLight](https://github.com/lbugnion/mvvmlight) (4 contributors)
