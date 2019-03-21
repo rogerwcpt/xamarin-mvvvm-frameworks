@@ -1,6 +1,6 @@
 # A Comparison Matrix of MVVM Frameworks for Xamarin
 
-|Feature|MVVMCross|FreshMVVM|Prism Forms|MVVMLight|
+|Feature|MVVMCross|FreshMVVM|Prism.Forms|MVVMLight|
 |-------|---------|---------|-----------|---------|
 |Supports Xamarin Forms|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:|
 |Supports Xamarin Native|:white_check_mark:|:no_entry:|:no_entry:|:white_check_mark:|
@@ -30,11 +30,11 @@
 **MVVMLight** and **Caliburn Micro** only have 1 contributor and suitable for light applications. Documenation is not that good or up to date and doesn't appear to support .NET Standard. 
 
 
-|Links|MVVMCross|FreshMVVM|Prism Forms|MVVMLight|
+|Links|MVVMCross|FreshMVVM|Prism.Forms|MVVMLight|
 |-----|---------|---------|-----------|---------|
 |GitHub|[Link](https://github.com/MvvmCross/MvvmCross)|[Link](https://github.com/rid00z/FreshMvvm)|[Link](https://github.com/PrismLibrary/Prism)|[Link](https://github.com/lbugnion/mvvmlight)|
 |Contributors|275|15|83|4|
-|Nuget|[Link](https://www.nuget.org/packages/MvvmCross/)|[Link](https://www.nuget.org/packages/FreshMvvm/)|[Link](https://www.nuget.org/packages/Prism.Forms/)|[Link](https://www.nuget.org/packages/MvvmLight/|
+|Nuget|[Link](https://www.nuget.org/packages/MvvmCross/)|[Link](https://www.nuget.org/packages/FreshMvvm/)|[Link](https://www.nuget.org/packages/Prism.Forms/)|[Link](https://www.nuget.org/packages/MvvmLight/)|
 |Last updated*|6 months ago|5 days ago|5 months ago|6 months ago|
 |Last Major Version Downloads*|86,597|59,845|74,273|94,670|
 |Downloads All Time*|1,071,196|148,771|518,698|1,152,775|
