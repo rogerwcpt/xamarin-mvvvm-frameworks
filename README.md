@@ -9,7 +9,7 @@
 |Active Development|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:|
 |Up to date Samples|:white_check_mark:|:white_check_mark:|:white_check_mark:|:no_entry:|:white_check_mark:|
 |.NET Foundation Member|:white_check_mark:|:no_entry:|:white_check_mark:|:no_entry:|:no_entry:|
-|.NET Standard Support|:white_check_mark:|:white_check_mark:|:white_check_mark:|:no_entry:|:white_check_mark:|
+|.NET Standard Support|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:|:no_entry:|
 |Up to date documentation|:white_check_mark:|:white_check_mark:|:no_entry:|:no_entry:|:no_entry:|
 |Built in IOC Container|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:|
 |Fast IOC Container|:white_check_mark:|:white_check_mark:|:no_entry:|:white_check_mark:|:white_check_mark:|
