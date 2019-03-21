@@ -9,7 +9,7 @@
 |Active Development|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:|
 |Up to date Samples|:white_check_mark:|:white_check_mark:|:white_check_mark:|:no_entry:|:white_check_mark:|
 |.NET Foundation Member|:white_check_mark:|:no_entry:|:white_check_mark:|:no_entry:|:no_entry:|
-|.NET Standard 2.0 Support|:white_check_mark:|:white_check_mark:|:white_check_mark:|:no_entry:|:white_check_mark:|
+|.NET Standard Support|:white_check_mark:|:white_check_mark:|:white_check_mark:|:no_entry:|:white_check_mark:|
 |Up to date documentation|:white_check_mark:|:white_check_mark:|:no_entry:|:no_entry:|:no_entry:|
 |Built in IOC Container|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:|
 |Fast IOC Container|:white_check_mark:|:white_check_mark:|:no_entry:|:white_check_mark:|:white_check_mark:|
@@ -19,10 +19,11 @@
 |ViewModel Parameters|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:|
 |ViewModel Lifecycle|:white_check_mark:|:white_check_mark:|:no_entry:|:no_entry:|:white_check_mark:|    
 |Non-Invasive XAML|:no_entry:|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:|
-|Event Aggregator|:white_check_mark:|:no_entry:|:white_check_mark:|:no_entry:|:white_check_mark:|
+|Event Aggregator|:white_check_mark:|:no_entry:|:white_check_mark:|:white_check_mark:|:white_check_mark:|
 |View Presenter Overriding|:white_check_mark:|:no_entry:|:no_entry:|:no_entry:|:no_entry:|
 |Converter Helpers|:white_check_mark:|:no_entry:|:no_entry:|:no_entry:|:no_entry:|
 |Plugin Support|:white_check_mark:|:no_entry:|:white_check_mark:|:no_entry:|:no_entry:|
+|Switch IOC Container|:white_check_mark:|:no_entry:|:white_check_mark:|:white_check_mark:|:white_check_mark:|
 
 
 ## GitHub and Nuget Stats
@@ -46,15 +47,11 @@
 
 The other drawback I've found with MVVMCross are the mysterious bugs that appear in Release Mode because you havne't included an up to date [LinkerPleaseInclude.cs](https://github.com/MvvmCross/MvvmCross-Samples/blob/master/StarWarsSample/StarWarsSample.Forms/StarWarsSample.Forms.iOS/LinkerPleaseInclude.cs) file which they provide in their sample applications.
 
-**Prism** is suitable for large applications, but has some limitations, one of which being containers that are slow and the use of magic strings for Navigations
-
-**MVVMLight** and **Caliburn.Micro** only have one major contributor and suitable for light applications. Documenation is not that good or up to date and doesn't appear to support .NET Standard 2.0 in their stable releases.\
+**Prism** is suitable for large applications, but I find the documentation lacking.  My pet peev is use of magic strings for Navigation to a page.  The documentation lists most of the default containers as legacy, so only DryIOC is performant enough.  There is however and undocumented [Prism.SimpleInjector](https://www.nuget.org/packages/Prism.SimpleInjector/) nuget package which should also offer good performance as far as IOC containers go. 
 
 The benefit that **MVVMCross** and **MVVMLight** have over the other "Xamarin Forms Only" frameworks is that you can have your Core ViewModels be rendered to Native and Forms platofrms (eg.  Xamarin Forms for iOS and Xamarin Native for tvOS).
 
 With the exception of **FreshMVVM** which is a Xamarin Forms first class citizen, you get the feeling that all the others supported Xamarin Forms as an afterthought because they were convceived before Xamarin Forms took off.   **MVVMCross** seems to put more effort behind Xamarin Native but having use **MVVMCross** in a Xamarin Forms app, the support is very good too.
-
-Having used **Caliburn.Micro** in its hey dey with Windows Desktop and Windows Phone applications, it was quite revolutionary, with many people using it over MVVMLight because it had so many nifty features such as Auto Binding of Properties to visual elements if the element had the same name.  That feature seems to have dropped off in the Xamarin version, probably for technical reasons.  Caliburn.Micro's evolution seems to be the slowest which is sad given where its come from.
 
 I think **MVVMCross** and **Prism** are great for enterprise applications because they guide you down a particular pattern.  So its easy for a bunch of developers to follow the familiar pattern when working on multiple projects in an organisation that use **MVVMCross** or **Prism** consitently.  
 
@@ -62,12 +59,24 @@ I think **FreshMVVM** is well thought out and easy to use, but what really puts 
 
 **MVVMCross** and **MVVMLight** have very high average downloads per day, but their history goes way back before Xamarin Forms became popular.  So that would leave **Prism** as the highest downloads from a pure Xamarin Forms point of view.
 
+**MVVMLight** and **Caliburn.Micro** only have one major contributor and suitable for light applications. Documenation is not that good or up to date.
+
+Having used **Caliburn.Micro** in its hey dey with Windows Desktop and Windows Phone applications, it was quite revolutionary, with many people using it over MVVMLight because it had so many nifty features such as Auto Binding of Properties to visual elements if the element had the same name.  That feature seems to have dropped off in the Xamarin version, probably for technical reasons.  Caliburn.Micro's evolution seems to be the slowest which is sad given where its come from.
+
+
 ### So which one should you use?
 
-The cop out answer is "it depends", but it really does.   If you have used **MVVMCross**, **MVVMLight** for Xamarin Native applications before (or Prism for native Windows applications) and are now using Xamarin Forms, it makes sense to continue to use what you're used to.  
+The cop out answer is "it depends", but it really does. If you have used **MVVMCross**, **MVVMLight** for Xamarin Native applications before (or **Prism** for native *Windows* applications) and are now using Xamarin Forms, it makes sense to continue to use what you're used to.  
 
 If you have *no* experience with any MVVM frameworks and you have a small app but want some of the nifty features of an MVVM framework, I would say **FreshMVVM** is a good choice. 
 
+But if you really wanted my opinion, considering all of the above and despite my bias toward MVVMCross, I would order them like this:
+
+1. MVVMCross
+2. Prism.Forms (use DryIOC or SimpleInjector IOC container)
+3. FreshMVVM
+4. MVVMLight
+5. Caliburn Micro
 
 ## Resources
 
