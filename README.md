@@ -7,7 +7,7 @@
 |Active Development|:white_check_mark:|:no_entry:|:no_entry:|:no_entry:|
 |Up to date Samples|:white_check_mark:|:white_check_mark:|:white_check_mark:|:no_entry:|
 |.NET Foundation|:white_check_mark:|:no_entry:|:white_check_mark:|:no_entry:|
-|.NET Standard Support|:white_check_mark:|:no_entry:|:no_entry:|:no_entry:|
+|.NET Standard Support|:white_check_mark:|:white_check_mark:|:white_check_mark:|:no_entry:|
 |Up to date documentation|:white_check_mark:|:white_check_mark:|:no_entry:|:no_entry:|
 |Built in IOC Container|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:|
 |Fast IOC Container|:white_check_mark:|:white_check_mark:|:no_entry:|:white_check_mark:|
@@ -17,6 +17,8 @@
 |ViewModel Parameters|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:|
 |View Lifecycle|:white_check_mark:|:white_check_mark:|:no_entry:|:no_entry:|
 |Event Aggregator|:white_check_mark:|:no_entry:|:white_check_mark:|:no_entry:|
+|View Presenter Overridding|:white_check_mark:|:no_entry:|:no_entry:|:no_entry:|
+|Converter Helpers|white_check_mark:|:no_entry:|:no_entry:|:no_entry:|
 
 
 ## Summary
