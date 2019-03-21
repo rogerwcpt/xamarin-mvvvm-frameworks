@@ -6,7 +6,7 @@
 |Supports Xamarin Native|:white_check_mark:|:no_entry:|:no_entry:|:white_check_mark:|
 |Active Development|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:|
 |Up to date Samples|:white_check_mark:|:white_check_mark:|:white_check_mark:|:no_entry:|
-|.NET Foundation|:white_check_mark:|:no_entry:|:white_check_mark:|:no_entry:|
+|.NET Foundation Member|:white_check_mark:|:no_entry:|:white_check_mark:|:no_entry:|
 |.NET Standard Support|:white_check_mark:|:white_check_mark:|:white_check_mark:|:no_entry:|
 |Up to date documentation|:white_check_mark:|:white_check_mark:|:no_entry:|:no_entry:|
 |Built in IOC Container|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:|
@@ -38,7 +38,7 @@
 
 ## Summary
 
-**MVVMCross** is the most feature complete and suitable for most applications. It has a very large community support base from a contributions and troubleshooting point of view. The biggest drawback for me of MVVMCross as far as XAML goes, its that you need to use their MvxContentPage in your declarations
+**MVVMCross** is the most feature complete and suitable for most applications. It has a very large community support base from a contributions and troubleshooting point of view. The biggest drawback for me of MVVMCross as far as XAML goes, its that you need to use their MvxContentPage in your declarations.
 
 **Prism** is suitable for large applications, but has some limitations, one of which being containers that are slow and the use of magic strings for Navigations
 
