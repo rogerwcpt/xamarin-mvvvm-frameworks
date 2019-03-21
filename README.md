@@ -5,7 +5,7 @@
 |Supports Xamarin Forms|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:|
 |Supports Xamarin Native|:white_check_mark:|:no_entry:|:no_entry:|:white_check_mark:|
 |Active Development|:white_check_mark:|:no_entry:|:no_entry:|:no_entry:|
-|Up to date Samples|:white_check_mark:|:white_check_mark:|:no_entry:|:no_entry:|
+|Up to date Samples|:white_check_mark:|:white_check_mark:|:white_check_mark:|:no_entry:|
 |.NET Foundation|:white_check_mark:|:no_entry:|:white_check_mark:|:no_entry:|
 |.NET Standard Support|:white_check_mark:|:no_entry:|:no_entry:|:no_entry:|
 |Up to date documentation|:white_check_mark:|:white_check_mark:|:no_entry:|:no_entry:|
