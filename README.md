@@ -82,13 +82,14 @@ But if you really wanted my opinion, considering all of the above and despite my
 
 ### Framework Comparisons
 - [Adam Pedley on Xamarin Help](https://xamarinhelp.com/use-xamarin-forms-mvvm-framework/)
+- [Devlin Duldulao on Prism](https://devlinduldulao.pro/using-prism-framework-in-xamarin-forms/)
 
 ### IOC Container Performance Comparisons
 
 - [Daniel Palme on GitHub](https://github.com/danielpalme/IocPerformance)
 - [Adam Pedley on Xamarin Help](https://xamarinhelp.com/ioc-container-performance/)
 
-### Documentation
+### Official Documentation
 
 - [MVVMCross](https://www.mvvmcross.com/documentation/)
 - [FreshMVVM](https://github.com/rid00z/FreshMvvm)
@@ -96,7 +97,7 @@ But if you really wanted my opinion, considering all of the above and despite my
 - [MVVMLight](https://galasoft.ch/posts/2014/07/using-xamarin-forms-with-mvvmlight)
 - [Caliburn.Micro](https://caliburnmicro.com/documentation/)
 
-### Samples
+### Official Samples
 
 - MVVMCross
   - [Playground](https://github.com/MvvmCross/MvvmCross/tree/develop/Projects/Playground)
