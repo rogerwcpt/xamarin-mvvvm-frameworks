@@ -26,13 +26,18 @@
 |Switch IOC Container|:white_check_mark:|:no_entry:|:white_check_mark:|:white_check_mark:|:white_check_mark:|
 
 
-## GitHub and Nuget Stats
+## GitHub Stats
 
 |Links|MVVMCross|FreshMVVM|Prism.Forms|MVVMLight|Caliburn.Micro|
 |-----|---------|---------|-----------|---------|---------|
 |GitHub|[Link](https://github.com/MvvmCross/MvvmCross)|[Link](https://github.com/rid00z/FreshMvvm)|[Link](https://github.com/PrismLibrary/Prism)|[Link](https://github.com/lbugnion/mvvmlight)|[Link](https://github.com/caliburn-micro/caliburn.micro)|
 |GitHub master Last commit*|1 month ago|9 days ago|11 days ago|3 months ago|1 month ago|
 |Contributors|275|15|83|4|34|
+
+
+## Nuget Stats
+|Links|MVVMCross|FreshMVVM|Prism.Forms|MVVMLight|Caliburn.Micro|
+|-----|---------|---------|-----------|---------|---------|
 |Nuget|[Link](https://www.nuget.org/packages/MvvmCross/)|[Link](https://www.nuget.org/packages/FreshMvvm/)|[Link](https://www.nuget.org/packages/Prism.Forms/)|[Link](https://www.nuget.org/packages/MvvmLight/)|[Link](https://www.nuget.org/packages/Caliburn.Micro)|
 |Nuget Last updated*|1 month ago|5 days ago|5 months ago|6 months ago|14 months ago|
 |Downloads - last major version*|86,597|59,845|74,273|94,670|122,487|
