@@ -1,5 +1,9 @@
 # A Comparison Matrix of MVVM Frameworks for Xamarin
 
+I often see the question in forums "Which is the best MVVM Framework for Xamarin that I should use?" or "Should I use an MVVM Framework for Xamarin?".
+
+To answer this question for myself (and others hopefully), I've done some research and compared the popular MVVM frameworks for Xamarin and elaborated what they have over the vanilla out the box Xamarin Forms (and Xamarin Native) offfering.
+
 >(Comparison below is based on stable versions, not pre-release)
 
 |Feature|MVVMCross|FreshMVVM|Prism.Forms|MVVMLight|Caliburn.Micro|
